@@ -137,7 +137,7 @@ get_ipython().run_line_magic('time', "df2.to_sql(name=table_name_2, con=engine, 
 
 from time import time
 
-def addToSql(df, df_iter, title, bool ):
+def addToSql(df, df_iter, title, hasDates ):
   while True: 
     try:
         t_start = time()
